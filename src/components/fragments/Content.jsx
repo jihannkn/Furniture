@@ -8,10 +8,10 @@ import Section4 from "../elements/Section4";
 export default function Content() {
     return (
         <div>
-            <div className="w-full">
+            <div className="w-full mb-[40px]">
                 <Section1/>
             </div>
-            <div className="w-full h-screen border-2 border-blue-500 flex items-center justify-center">
+            <div className="w-full mb-[90px]">
                 <Section2/>
             </div>
             <div className="w-full h-screen border-2 border-blue-500 flex items-center justify-center">

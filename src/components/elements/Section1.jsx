@@ -8,7 +8,7 @@ export default function Section1() {
         <div className="w-full relative font-poppins ">
                     <div className="w-[50%] flex flex-col gap-[20px] absolute">
                         <div className="w-[70%]">
-                            <h1 className="font-poppins text-[5rem] font-bold text-font-color">Modern Furniture</h1>
+                            <h1 className="font-poppins text-[5rem] font-bold text-font-color ">Modern Furniture</h1>
                         </div>
                         <div className="w-[60%]">
                             <p className="text-[1.1rem] text-font-color">
@@ -27,7 +27,7 @@ export default function Section1() {
                 <div className=" w-full" >
                 <div className="mb-[30px]">
                         <div className="w-full flex justify-center">
-                            <h1 className="text-font-color font-bold text-[3rem]">Hot Deals For You</h1>
+                            <h1 className="text-font-color font-bold text-[2.5rem]">Hot Deals For You</h1>
                         </div>
                         <div className="w-full flex justify-between bg-[#EEDFCC] p-[20PX] rounded-[10px] px-[60px] shadow-2xl" >
                         <div className="w-[20%] flex flex-col gap-[10px] text-font-color" >
