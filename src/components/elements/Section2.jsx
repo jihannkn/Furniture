@@ -18,7 +18,7 @@ export default function Section2(){
                     using only materials of the finest quality, to ensure you have
                     the best seat in the house
                 </p>
-                <button className="w-[30%] border-2 h-[35px] rounded-[10px] bg-primary-blue text-[0.7rem] flex items-center justify-center"><a href="#">Add To Card</a></button>
+                <button className="w-[30%] h-[35px] rounded-[10px] bg-primary-blue text-[0.7rem] flex items-center justify-center"><a href="#">Add To Card</a></button>
                     </div>
                     <div className="w-[30%] h-[350px] relative rounded-b-[20px] rounded-t-[300px] mt-[-50px] mr-[-80px] bg-[#D7AC82]">
                         <img src={chair21} alt="" className="w-[200px] h-[200px] absolute bottom-[20px] right-[70px]" />
@@ -35,7 +35,7 @@ export default function Section2(){
                 suit any style. Perhaps you're looking for a mid-century
                 masterpiece
                 </p>
-                <button className="w-[30%] border-2 h-[35px] rounded-[10px] bg-primary-brown text-[0.7rem] flex items-center justify-center"><a href="#">Add To Card</a></button>
+                <button className="w-[30%] h-[35px] rounded-[10px] bg-primary-brown text-[0.7rem] flex items-center justify-center"><a href="#">Add To Card</a></button>
                     </div>
             </div>
             </div>

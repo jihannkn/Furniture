@@ -17,8 +17,8 @@ export default function Section1() {
                             </p>
                         </div>
                         <div className="w-full flex gap-[20px]" >
-                            <button className="w-[15%] border-2 h-[35px] rounded-[10px] bg-primary-blue text-[0.7rem] flex items-center justify-center"><a href="#">Start Now</a></button>
-                            <button className="w-[15%] border-2 h-[35px] rounded-[10px] bg-primary-brown text-[0.7rem] flex items-center justify-center"><a href="#">Read More</a></button>
+                            <button className="w-[15%] h-[35px] rounded-[10px] bg-primary-blue text-[0.7rem] flex items-center justify-center"><a href="#">Start Now</a></button>
+                            <button className="w-[15%] h-[35px] rounded-[10px] bg-primary-brown text-[0.7rem] flex items-center justify-center"><a href="#">Read More</a></button>
                         </div>
                     </div>
                     <div className="w-full flex justify-end">
