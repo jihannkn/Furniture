@@ -1,6 +1,6 @@
 import Content from "../fragments/Content";
 import Footer from "../fragments/Footer";
-import Navbar from "../fragments/Nafbar";
+import Navbar from "../fragments/Navbar";
 
 export default function MainLayout(){
     return(
