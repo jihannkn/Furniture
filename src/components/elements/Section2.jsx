@@ -1,5 +1,9 @@
 import chair21 from "../../../public/assets/images/21.png";
 import chair22 from "../../../public/assets/images/22.png";
+import chair31 from "../../../public/assets/images/31.png";
+import chair32 from "../../../public/assets/images/32.png";
+import chair33 from "../../../public/assets/images/33.png";
+import { IoIosArrowBack,  IoIosArrowForward } from "react-icons/io";
 
 
 export default function Section2(){
@@ -39,8 +43,25 @@ export default function Section2(){
                     </div>
             </div>
             </div>
-            <div>
-                <h1 className="text-font-color text-[3rem] font-bold">cobaaaa</h1>
+            <div className="w-full flex flex-col mt-[40px]">
+                <div className="w-full flex justify-center">
+                    <h1 className="text-font-color font-bold text-[2.5rem]">Wonden Sofa Sets</h1>
+                </div>
+                <div className="w-full ">
+                    <ul className="w-full flex justify-around">
+                        <li>
+                            <img src={chair31} alt="" className="h-[250px] w-[250px]" />
+                        </li>
+                        <li className="flex items-center gap-[50px]">
+                            <IoIosArrowBack className="rounded-[50px] p-[7px] text-[3rem] bg-[#D7AC82] font-normal"/>
+                            <img src={chair32} alt="" className="h-[350px] w-[350px]" />
+                            <IoIosArrowForward className="rounded-[50px] p-[7px] text-[3rem] bg-[#D7AC82] font-normal"/>
+                        </li>
+                        <li>
+                            <img src={chair33} alt="" className="h-[250px] w-[250px]" />
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
