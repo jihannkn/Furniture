@@ -39,6 +39,9 @@ export default function Section2(){
                     </div>
             </div>
             </div>
+            <div>
+                <h1 className="text-font-color text-[3rem] font-bold">cobaaaa</h1>
+            </div>
         </div>
     )
 }
