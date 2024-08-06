@@ -1,8 +1,8 @@
 
-import Section1 from "../elements/Section1";
-import Section2 from "../elements/Section2";
-import Section3 from "../elements/Section3";
-import Section4 from "../elements/Section4";
+import Section1 from "../../pages/Section1";
+import Section2 from "../../pages/Section2";
+import Section3 from "../../pages/Section3";
+import Section4 from "../../pages/Section4";
 
 
 export default function Content() {
@@ -17,7 +17,7 @@ export default function Content() {
             <div className="w-full ">
                 <Section3/>
             </div>
-            <div className="w-full h-screenflex items-center justify-center">
+            <div className="w-full items-center justify-center">
                 <Section4/>
             </div>
         </div>
