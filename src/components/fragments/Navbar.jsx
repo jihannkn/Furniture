@@ -5,8 +5,8 @@ import { IoSearch } from "react-icons/io5";
 export default function Navbar() {
     return (
         <nav className="py-[20px] pr-[80px] pl-[50px] w-full flex justify-between items-center">
-            <div className="sofa font-dancing font-bold text-lg text-[#716255]">
-                <p>sofa set</p>
+            <div className="font-dancing font-bold text-[#716255]">
+                <p className="text-[1.2rem]">sofa set</p>
             </div>
             <div className="w-[35%]">
                 <ul className="flex gap-[50px] w-full font-poppins">
