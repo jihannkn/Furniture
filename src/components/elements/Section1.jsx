@@ -21,7 +21,7 @@ export default function Section1() {
                             <button className="w-[15%] h-[35px] rounded-[10px] bg-primary-brown text-[0.7rem] flex items-center justify-center"><a href="#">Read More</a></button>
                         </div>
                     </div>
-                    <div className="w-full flex justify-end">
+                    <div className="w-full flex justify-end ml-[40px]">
                         <img src={bg1} alt="" className="w-[100%] h-[100vh]"/>
                     </div>
                 <div className=" w-full" >

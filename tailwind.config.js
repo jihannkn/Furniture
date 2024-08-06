@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins:['poppins','sans-serif'],
-        playwrite:["Playwrite US Trad", 'cursive']
+        poppins:["Poppins", 'sans-serif'],
+        dancing: ['Dancing Script', 'cursive'],
       },
       colors: {
         'font-color': '#746457',

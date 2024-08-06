@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <div className="w-full flex items-center p-[5px] text-font-color">
             <div className="w-[20%] flex justify-start">
-                <h1 className="font-playwrite font-bold">Sofa Sheet</h1>
+                <h1 className="font-dancing">Sofa Sheet</h1>
             </div>
             <div className="w-[65%]">
                 <ul className="flex justify-around w-full font-poppins">

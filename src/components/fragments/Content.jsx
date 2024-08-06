@@ -14,10 +14,10 @@ export default function Content() {
             <div className="w-full mb-[90px]">
                 <Section2/>
             </div>
-            <div className="w-full h-screen border-2 border-blue-500 flex items-center justify-center">
+            <div className="w-full ">
                 <Section3/>
             </div>
-            <div className="w-full h-screen border-2 border-blue-500 flex items-center justify-center">
+            <div className="w-full h-screenflex items-center justify-center">
                 <Section4/>
             </div>
         </div>

@@ -4,17 +4,18 @@ import Navbar from "../fragments/Navbar";
 
 export default function MainLayout(){
     return(
-        <div className="w-full px-[40px] bg-primary-bg">
+        <div className="w-full bg-primary-bg">
+            <div className="px-[40px]">
             <div className="w-full">
                 <Navbar/>
             </div>
             <div className="w-full">
                 <Content/>
             </div>
+            </div>
             <div className="w-full">
                 <Footer/>
             </div>
-
         </div>
     )
 }
