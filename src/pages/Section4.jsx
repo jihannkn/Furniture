@@ -1,4 +1,5 @@
 import image5 from "../../public/assets/images/5.png";
+import ButtonPrimary from "../components/elements/ButtonPrimary";
 export default function Section4() {
     return (
         <div className="w-full flex items-center justify-center p-[50px] py-[50px] pt-[95px] pb-[100px] font-['Exo 2'] text-[#716255]">
@@ -17,9 +18,10 @@ export default function Section4() {
                     </p>
                 </div>
                 <div className="mt-[27px]">
-                    <button className="px-[22px] py-[10px] text-black bg-[#8da7c3] rounded-[5px] border-none">
-                        Read More
-                    </button>
+                    <ButtonPrimary
+                        text="Read More"
+                        className="text-black bg-primary-blue"
+                    />
                 </div>
             </div>
         </div>

@@ -1,6 +1,8 @@
 import bg1 from "../../public/assets/images/bg1.png";
 import { FaCommentDots, FaTruckFast } from "react-icons/fa6";
 import { FaCircleDollarToSlot } from "react-icons/fa6";
+import ButtonPrimary from "../components/elements/ButtonPrimary";
+import HotDealCards from "../components/elements/HotDealCards";
 
 export default function Section1() {
     return (
@@ -16,8 +18,14 @@ export default function Section1() {
                     </p>
                 </div>
                 <div className="w-full flex gap-[10px] mt-[40px]" >
-                    <button className="px-[22px] py-[12px] text-black text-[13px] bg-primary-blue rounded-[5px] font-bold border-none"><a href="#">Start Now</a></button>
-                    <button className="px-[22px] py-[12px] text-black text-[13px] bg-primary-brown rounded-[5px] font-bold border-none"><a href="#">Read More</a></button>
+                    <ButtonPrimary
+                        text="Start Now"
+                        className="font-bold text-black bg-primary-blue"
+                    />
+                    <ButtonPrimary
+                        text="Read More"
+                        className="font-bold text-black bg-primary-brown"
+                    />
                 </div>
             </div>
             <div className="w-full flex justify-end">
@@ -29,9 +37,14 @@ export default function Section1() {
                         <h1 className="text-font-color font-bold text-[3rem]">Hot Deals For You</h1>
                     </div>
                     <div className="w-full flex justify-between bg-[#EEDFCC] mt-[40px] py-[20px] rounded-[10px] px-[25px] shadow-2xl" >
-                        <div className="w-[20%] flex flex-col gap-[10px] text-font-color" >
+                        {/* <HotDealCards>
+                            <HotDealCards.Icon icon={<FaTruckFast className="text-[4rem]" />} />
+                            <HotDealCards.Title title="Free Shipping" />
+                            <HotDealCards.Description desc="we combine interior and exterior design service" />
+                        </HotDealCards> */}
+                        {/* <div className="w-[20%] flex flex-col gap-[10px] text-font-color">
                             <FaTruckFast className="text-[4rem]" />
-                            <h2 className="font-bold text-[1.5rem]">Free Shopping</h2>
+                            <h2 className="font-bold text-[1.5rem]">Free Shipping</h2>
                             <p className="text-[22px]">we combine interior and exterior design service</p>
                         </div>
                         <div className="w-[20%] flex flex-col gap-[10px] text-font-color">
@@ -43,7 +56,22 @@ export default function Section1() {
                             <FaCommentDots className="text-[4rem]" />
                             <h2 className="font-bold text-[1.5rem]">Contact With Us</h2>
                             <p className="text-[22px]">we combine interior and exterior design service</p>
-                        </div>
+                        </div> */}
+                        <HotDealCards
+                            icon={FaTruckFast}
+                            title="Free Shopping"
+                            desc="we combine interior and exterior design service"
+                        />
+                        <HotDealCards
+                            icon={FaCircleDollarToSlot}
+                            title="Save Money"
+                            desc="we combine interior and exterior design service"
+                        />
+                        <HotDealCards
+                            icon={FaCommentDots}
+                            title="Contact With Us"
+                            desc="we combine interior and exterior design service"
+                        />
                     </div>
                 </div>
             </div>
