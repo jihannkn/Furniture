@@ -1,7 +1,7 @@
 
 import Section1 from "../elements/Section1";
 import Section2 from "../elements/Section2";
-import Sectioon3 from "../elements/Section3";
+import Section3 from "../elements/Section3";
 import Section4 from "../elements/Section4";
 
 
@@ -15,7 +15,7 @@ export default function Content() {
                 <Section2/>
             </div>
             <div className="w-full h-screen border-2 border-blue-500 flex items-center justify-center">
-                <Sectioon3/>
+                <Section3/>
             </div>
             <div className="w-full h-screen border-2 border-blue-500 flex items-center justify-center">
                 <Section4/>
