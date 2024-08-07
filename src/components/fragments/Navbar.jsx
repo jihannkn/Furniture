@@ -1,5 +1,6 @@
 import { TbShoppingBag } from "react-icons/tb";
 import { IoSearch } from "react-icons/io5";
+import Navlink from "../elements/NavLink";
 
 
 export default function Navbar() {
@@ -9,12 +10,13 @@ export default function Navbar() {
                 <p className="text-[1.2rem]">sofa set</p>
             </div>
             <div className="w-[35%]">
-                <ul className="flex gap-[50px] w-full font-poppins">
-                    <li className="hover:font-bold text-[18px] text-[#716255] h-[30px] w-[20%] flex justify-center items-center ">Home</li>
-                    <li className="hover:font-bold text-[18px] text-[#716255] h-[30px] w-[20%] flex justify-center items-center ">Review</li>
-                    <li className="hover:font-bold text-[18px] text-[#716255] h-[30px] w-[20%] flex justify-center items-center ">Contact</li>
-                    <li className="hover:font-bold text-[18px] text-[#716255] h-[30px] w-[20%] flex justify-center items-center ">About Us</li>
-                </ul>
+                <Navlink>
+                    <Navlink.link link={'Home'}/>
+                    <Navlink.link link={'Review'}/>
+                    <Navlink.link link={'Contact'}/>
+                    <Navlink.link link={'About Us'}/>
+                </Navlink>
+
             </div>
             <div className="flex items-center gap-[20px] text-[#716255] pr-[40px]">
             <IoSearch className="text-[1.2rem]" />

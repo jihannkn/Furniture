@@ -1,17 +1,17 @@
-const  Navlink = ({children})  =>{
+const Navlink = ({children}) => {
     return(
-        <div className="mt-12 flex justify-center items-center gap-4">            
-                {children}
-            </div>
+        <ul className="flex gap-[50px] w-full font-poppins">
+                   {children}
+        </ul>
     )
 }
 
-const list = ({list}) =>{
+const link = ({link}) => {
     return(
-        <button className="px-[45px] py-[10px] border-none rounded-[13px] font-['Exo_2',_sans-serif] text-black bg-[#eacab2] hover:bg-[#ba9a76]">{list}</button>
+        <li className="hover:font-bold text-[18px] text-[#716255] h-[30px] w-[20%] flex justify-center items-center ">{link}</li>
     )
 }
 
-Navlink.list = list
+Navlink.link = link
 
 export default Navlink
