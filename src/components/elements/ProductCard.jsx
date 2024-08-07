@@ -14,7 +14,7 @@ const ProductCard = ({children}) =>{
     )
 }
 
-const Card = ({img, title, price}) =>{
+const Card = ({img, title, price}) => {
     return(
         <div className="w-[25%]">
                         <div className="flex justify-center items-center h-[34vh] bg-[#ead8c8] rounded-t-[15px]">
