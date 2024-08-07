@@ -1,7 +1,6 @@
 const  Navlink = ({children})  =>{
     return(
-        <div className="mt-12 flex justify-center items-center gap-4">
-            
+        <div className="mt-12 flex justify-center items-center gap-4">            
                 {children}
             </div>
     )
