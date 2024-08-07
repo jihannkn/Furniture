@@ -29,21 +29,6 @@ export default function Footer() {
                 <FooterList.ListContent icon={<FaLinkedinIn/>} content={'linkedln'}/>
             </FooterList>
 
-            
-            {/* <div>
-                <h3 className="text-[29px] font-semibold">Be social</h3>
-                <ul className="mt-[5px] flex flex-col items-start gap-[5px]">
-                    <li className="text-[23px] list-none">
-                        <a href="#" className="flex justify-center items-center"><FaFacebookF className="mr-[7px]"/> facebook</a>
-                    </li>
-                    <li className="text-[23px] list-none">
-                        <a href="#" className="flex justify-center items-center"><FaTwitter className="mr-[7px]"/>twitter</a>
-                    </li>
-                    <li className="text-[23px] list-none">
-                        <a href="#" className="flex justify-center items-center"><FaLinkedinIn className="mr-[7px]"/>linkedln</a>
-                    </li>
-                </ul>
-            </div> */}
         </div>
     )
 }

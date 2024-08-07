@@ -1,15 +1,18 @@
 
 
 
-const FooterList = ({children}) => {
+const FooterList = ({children, props}) => {
     return(
         <div className="flex flex-col items-start">
-               {children}
+                   {props}
+               <ul className="mt-[5px] flex flex-col items-start gap-[5px]">
+                    {children}
+                </ul>
             </div>
     )
 }
 
-const Title = ({title }) =>{
+const Title = ({title }) => {
     return(
         <>
             <h3 className="text-[29px] font-semibold">{title}</h3>
@@ -17,15 +20,13 @@ const Title = ({title }) =>{
     )
 }
 
-const ListContent =({content,icon})=>{
+const ListContent =({content,icon}) => {
     return(
-        <ul className="mt-[5px] flex flex-col gap-[5px]">
                     <li className="text-[23px] list-none">
                     <a href="#" className="flex justify-center items-center">
                         <i className="mr-[7px]">{icon}</i>
                     {content}</a>
                     </li>
-                </ul>
     )
 }
 
