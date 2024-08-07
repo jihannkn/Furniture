@@ -1,18 +1,17 @@
-/* eslint-disable react/prop-types */
-const NavLink = ({ children }) => {
-    return (
-        <div className="mt-12 flex justify-center items-center gap-4">
-            {children}
-        </div>
+const Navlink = ({children}) => {
+    return(
+        <ul className="flex gap-[50px] w-full font-poppins">
+                   {children}
+        </ul>
     )
 }
 
-const List = ({ list }) => {
-    return (
-        <button className="px-[45px] py-[10px] border-none rounded-[13px] font-['Exo_2',_sans-serif] text-black bg-[#eacab2] hover:bg-[#ba9a76]">{list}</button>
+const link = ({link}) => {
+    return(
+        <li className="hover:font-bold text-[18px] text-[#716255] h-[30px] w-[20%] flex justify-center items-center ">{link}</li>
     )
 }
 
-NavLink.List = List
+Navlink.link = link
 
-export default NavLink
+export default Navlink
