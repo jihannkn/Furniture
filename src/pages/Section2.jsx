@@ -39,7 +39,7 @@ export default function Section2() {
                     <div className="w-[44%] mb-[50px]">
                         <p className="text-[22px]">
                             Being able to sit back and relax in your favourite armchair is
-                            trully one of the greatest feelings in life. That's why we've
+                            trully one of the greatest feelings in life.'ve
                             created a stunning range of lovingly handmade luxury armchair,
                             using only materials of the finest quality, to ensure you have
                             the best seat in the house
