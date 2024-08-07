@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins:['Poppins', 'sans-serif'],
+        exo2: ['Exo 2', 'sans-serif'],
         dancing: ['Dancing Script', 'cursive'],
       },
       colors: {

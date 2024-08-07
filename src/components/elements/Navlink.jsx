@@ -1,18 +1,18 @@
-const  Navlink = ({children})  =>{
-    return(
+/* eslint-disable react/prop-types */
+const NavLink = ({ children }) => {
+    return (
         <div className="mt-12 flex justify-center items-center gap-4">
-            
-                {children}
-            </div>
+            {children}
+        </div>
     )
 }
 
-const list = ({list}) =>{
-    return(
+const List = ({ list }) => {
+    return (
         <button className="px-[45px] py-[10px] border-none rounded-[13px] font-['Exo_2',_sans-serif] text-black bg-[#eacab2] hover:bg-[#ba9a76]">{list}</button>
     )
 }
 
-Navlink.list = list
+NavLink.List = List
 
-export default Navlink
+export default NavLink

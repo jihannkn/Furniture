@@ -1,4 +1,3 @@
-import { FaPlus } from "react-icons/fa6";
 import chair41 from "../../public/assets/images/41.png";
 import chair42 from "../../public/assets/images/42.png";
 import chair43 from "../../public/assets/images/43.png";
@@ -7,7 +6,7 @@ import chair45 from "../../public/assets/images/45.png";
 import chair46 from "../../public/assets/images/46.png";
 import chair47 from "../../public/assets/images/47.png";
 import chair48 from "../../public/assets/images/48.png";
-import Navlink from "../components/elements/Navlink";
+import NavLink from "../components/elements/NavLink";
 import ProductCard from "../components/elements/ProductCard";
 export default function Section3() {
     return (
@@ -15,14 +14,14 @@ export default function Section3() {
             <div className="w-full flex justify-center">
                 <h1 className="text-font-color font-bold text-[3rem]">A Huge Collection Of Furniture</h1>
             </div>
-            <Navlink>
-                <Navlink.list list={'All Interior'}/>
-                <Navlink.list list={'Home Officer'}/>
-                <Navlink.list list={'Bedroom'}/>
-                <Navlink.list list={'Sofa'}/>
-                <Navlink.list list={'>Chair'}/>
-                <Navlink.list list={'More'}/>
-            </Navlink>
+            <NavLink>
+                <NavLink.List list={'All Interior'}/>
+                <NavLink.List list={'Home Officer'}/>
+                <NavLink.List list={'Bedroom'}/>
+                <NavLink.List list={'Sofa'}/>
+                <NavLink.List list={'Chair'}/>
+                <NavLink.List list={'More'}/>
+            </NavLink>
             <div className="w-full mt-12 flex flex-col gap-5">
                 <ProductCard>
                     <ProductCard.Card

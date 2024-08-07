@@ -41,4 +41,4 @@ const HotDealCards = ({ icon: Icon, title, desc }) => {
     );
   };
   
-  export default HotDealCards
+export default HotDealCards
