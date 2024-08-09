@@ -24,9 +24,9 @@ export default function Footer() {
             </FooterList>
             <FooterList>
                 <FooterList.Title title={'Be social'}/>
-                <FooterList.ListContent icon={<FaFacebookF/>} content={' facebook'}/>
-                <FooterList.ListContent icon={<FaTwitter/>} content={'twitter'}/>
-                <FooterList.ListContent icon={<FaLinkedinIn/>} content={'linkedln'}/>
+                <FooterList.ListContent className={'mr-[7px]'} icon={<FaFacebookF/>} content={' facebook'}/>
+                <FooterList.ListContent className={'mr-[7px]'} icon={<FaTwitter/>} content={'twitter'}/>
+                <FooterList.ListContent className={'mr-[7px]'} icon={<FaLinkedinIn/>} content={'linkedln'}/>
             </FooterList>
 
         </div>

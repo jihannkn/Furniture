@@ -18,11 +18,11 @@ const Title = ({ title }) => {
     )
 }
 
-const ListContent = ({ content, icon }) => {
+const ListContent = ({ className, content, icon }) => {
     return (
         <li className="text-[23px] list-none">
             <a href="#" className="flex justify-center items-center">
-                <i className="mr-[5px]">{icon}</i>
+                <i className={`${className}`}>{icon}</i>
                 {content}</a>
         </li>
     )
