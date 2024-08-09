@@ -6,22 +6,22 @@ import chair45 from "../../public/assets/images/45.png";
 import chair46 from "../../public/assets/images/46.png";
 import chair47 from "../../public/assets/images/47.png";
 import chair48 from "../../public/assets/images/48.png";
-import NavLinksection3 from "../components/elements/Navlinksection3";
+import ButtonCollection from "../components/elements/ButtonCollection";
 import ProductCard from "../components/elements/ProductCard";
 export default function Section3() {
     return (
         <div className="w-full flex flex-col items-center px-[50px] font-['Exo_2',_sans-serif] text-[#716255]">
             <div className="w-full flex justify-center">
-                <h1 className="text-font-color font-bold text-[3rem]">A Huge Collection Of Furniture</h1>
+                <h1 className="text-font-color font-semibold text-[3.5rem]">A Huge Collection Of Furniture</h1>
             </div>
-            <NavLinksection3>
-                <NavLinksection3.List list={'All Interior'}/>
-                <NavLinksection3.List list={'Home Officer'}/>
-                <NavLinksection3.List list={'Bedroom'}/>
-                <NavLinksection3.List list={'Sofa'}/>
-                <NavLinksection3.List list={'Chair'}/>
-                <NavLinksection3.List list={'More'}/>
-            </NavLinksection3>
+            <ButtonCollection>
+                <ButtonCollection.List list={'All Interior'}/>
+                <ButtonCollection.List list={'Home Officer'}/>
+                <ButtonCollection.List list={'Bedroom'}/>
+                <ButtonCollection.List list={'Sofa'}/>
+                <ButtonCollection.List list={'Chair'}/>
+                <ButtonCollection.List list={'More'}/>
+            </ButtonCollection>
             <div className="w-full mt-12 flex flex-col gap-5">
                 <ProductCard>
                     <ProductCard.Card

@@ -1,6 +1,6 @@
 import { TbShoppingBag } from "react-icons/tb";
 import { IoSearch } from "react-icons/io5";
-import Navlink from "../elements/NavLink";
+import NavLink from "../elements/NavLink";
 
 
 export default function Navbar() {
@@ -10,12 +10,12 @@ export default function Navbar() {
                 <p className="text-[1.2rem]">sofa set</p>
             </div>
             <div className="w-[35%]">
-                <Navlink>
-                    <Navlink.link link={'Home'}/>
-                    <Navlink.link link={'Review'}/>
-                    <Navlink.link link={'Contact'}/>
-                    <Navlink.link link={'About Us'}/>
-                </Navlink>
+                <NavLink>
+                    <NavLink.Link link={'Home'}/>
+                    <NavLink.Link link={'Review'}/>
+                    <NavLink.Link link={'Contact'}/>
+                    <NavLink.Link link={'About Us'}/>
+                </NavLink>
 
             </div>
             <div className="flex items-center gap-[20px] text-[#716255] pr-[40px]">

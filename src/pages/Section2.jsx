@@ -9,14 +9,14 @@ import ButtonPrimary from "../components/elements/ButtonPrimary";
 
 export default function Section2() {
     return (
-        <div className="w-full py-[20px] px-[50px] text-[#716255] flex flex-col items-center">
+        <div className="w-full py-[20px] px-[50px] text-[#716255] flex flex-col items-center font-['Exo_2',_sans-serif]">
             <div>
-                <h1 className="text-font-color font-bold text-[3rem]">This Week Featured Product</h1>
+                <h1 className="text-font-color font-semibold text-[3.5rem]">This Week Featured Product</h1>
             </div>
             <div className="mt-[100px] mx-[40px] mb-[40px] py-[40px] px-[50px] bg-[#f0dbc5] rounded-[15px]">
                 <div className="flex justify-between">
-                    <div className="w-[44%]">
-                        <p className="text-[22px]">
+                    <div className="w-[40%]">
+                        <p className="text-[23px]">
                             Being able to sit back and relax in your favourite armchair is
                             trully one of the greatest feelings in life. That's why we've
                             created a stunning range of lovingly handmade luxury armchair,
@@ -36,13 +36,9 @@ export default function Section2() {
                     <div className="bg-[#d9ae84] relative w-[35%] h-[80vh] ml-[-90px] mb-[-110px] rounded-bl-[15px] rounded-br-[15px] rounded-tl-[300px] rounded-tr-[300px]">
                         <img src={chair22} alt="" className="absolute bottom-0 right-0 w-[90%] -mr-[120px] mb-[100px]" />
                     </div>
-                    <div className="w-[44%] mb-[50px]">
-                        <p className="text-[22px]">
-                            Being able to sit back and relax in your favourite armchair is
-                            trully one of the greatest feelings in life.'ve
-                            created a stunning range of lovingly handmade luxury armchair,
-                            using only materials of the finest quality, to ensure you have
-                            the best seat in the house
+                    <div className="w-[40%] mb-[50px]">
+                        <p className="text-[23px]">
+                        As in the best seat in the house. Combining comfort and creativity, our smashing range of armchairs features design to suit any style. Perhaps you're looking for a mid-century masterpiece
                         </p>
                         <ButtonPrimary
                         text="Add to Cart"
@@ -53,7 +49,7 @@ export default function Section2() {
             </div>
             <div className="w-full flex flex-col mt-[70px]">
                 <div className="w-full flex justify-center">
-                    <h1 className="text-font-color font-bold text-[3rem]">Wooden Sofa Sets</h1>
+                    <h1 className="text-font-color font-semibold text-[3.5rem]">Wooden Sofa Sets</h1>
                 </div>
                 <div className="w-full mt-[90px]">
                     <ul className="w-full flex justify-around">

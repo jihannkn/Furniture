@@ -1,6 +1,6 @@
 
 /* eslint-disable react/prop-types */
-const NavLink = ({ children }) => {
+const ButtonCollection = ({ children }) => {
     return (
         <div className="mt-12 flex justify-center items-center gap-4">
             {children}
@@ -14,6 +14,6 @@ const List = ({ list }) => {
     )
 }
 
-NavLink.List = List
+ButtonCollection.List = List
 
-export default NavLink
+export default ButtonCollection

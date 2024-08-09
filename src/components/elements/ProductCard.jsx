@@ -16,7 +16,7 @@ const Card = ({ img, title, price }) => {
                 <img src={img} alt="" className="w-2/5" />
             </div>
             <div className="p-[12px] flex justify-between items-center bg-[#e0bf9d] rounded-b-[15px]">
-                <div className="font-bold text-[17px]">
+                <div className="font-semibold text-[18px]">
                     <h4>{title}</h4>
                     <h4>{price}</h4>
                 </div>

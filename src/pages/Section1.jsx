@@ -6,10 +6,10 @@ import HotDealCards from "../components/elements/HotDealCards";
 
 export default function Section1() {
     return (
-        <div className="w-full relative font-poppins ">
+        <div className="w-full relative font-['Exo_2',_sans-serif] ">
             <div className="w-[50%] flex flex-col pl-[50px] mt-[68px] absolute">
                 <div className="w-[70%]">
-                    <h1 className="font-poppins text-[6rem] font-bold text-font-color ">Modern Furniture</h1>
+                    <h1 className="font-poppins text-[6rem] font-semibold text-font-color ">Modern Furniture</h1>
                 </div>
                 <div className="w-[60%]">
                     <p className="text-[1.4rem] text-font-color">
@@ -20,11 +20,11 @@ export default function Section1() {
                 <div className="w-full flex gap-[10px] mt-[40px]" >
                     <ButtonPrimary
                         text="Start Now"
-                        className="font-bold text-black bg-primary-blue"
+                        className="font-semibold text-black bg-primary-blue"
                     />
                     <ButtonPrimary
                         text="Read More"
-                        className="font-bold text-black bg-primary-brown"
+                        className="font-semibold text-black bg-primary-brown"
                     />
                 </div>
             </div>
@@ -34,7 +34,7 @@ export default function Section1() {
             <div className=" w-full px-[50px]" >
                 <div className="mb-[30px]">
                     <div className="w-full flex justify-center">
-                        <h1 className="text-font-color font-bold text-[3rem]">Hot Deals For You</h1>
+                        <h1 className="text-font-color font-semibold text-[3.5rem]">Hot Deals For You</h1>
                     </div>
                     <div className="w-full flex justify-between bg-[#EEDFCC] mt-[40px] py-[20px] rounded-[10px] px-[25px] shadow-2xl" >
                         {/* <HotDealCards>

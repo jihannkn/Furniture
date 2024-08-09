@@ -3,7 +3,7 @@ import FooterList from "../elements/FooterList";
 
 export default function Footer() {
     return (
-        <div className="w-full py-[50px] px-[80px] bg-[#d7ad82] text-[#716255] flex justify-between items-center">
+        <div className="w-full py-[50px] px-[80px] bg-[#d7ad82] text-[#716255] flex justify-between items-center font-['Exo_2',_sans-serif]">
             <FooterList>
                 <FooterList.Title title={'Other Info'}/>
                 <FooterList.ListContent content={'Terms & conditions'}/>

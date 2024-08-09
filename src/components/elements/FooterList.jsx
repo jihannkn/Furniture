@@ -3,7 +3,7 @@ const FooterList = ({ children, props }) => {
     return (
         <div className="flex flex-col items-start">
             {props}
-            <ul className="mt-[5px] flex flex-col items-start gap-[5px]">
+            <ul className="mt-[5px] flex flex-col items-start gap-[4px]">
                 {children}
             </ul>
         </div>
@@ -22,7 +22,7 @@ const ListContent = ({ content, icon }) => {
     return (
         <li className="text-[23px] list-none">
             <a href="#" className="flex justify-center items-center">
-                <i className="mr-[7px]">{icon}</i>
+                <i className="mr-[5px]">{icon}</i>
                 {content}</a>
         </li>
     )
