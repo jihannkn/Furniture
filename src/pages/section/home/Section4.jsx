@@ -1,5 +1,5 @@
-import image5 from "../../public/assets/images/5.png";
-import ButtonPrimary from "../components/elements/ButtonPrimary";
+import image5 from "../../../../public/assets/images/5.png";
+import ButtonPrimary from "../../../components/elements/ButtonPrimary";
 export default function Section4() {
     return (
         <div className="w-full flex items-center justify-center p-[50px] py-[50px] pt-[95px] pb-[100px] font-['Exo_2',_sans-serif] text-[#716255]">

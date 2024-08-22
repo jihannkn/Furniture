@@ -28,7 +28,7 @@ const ListContent = ({ className, content, icon }) => {
     )
 }
 
-FooterList.ListContent = ListContent
 FooterList.Title = Title
+FooterList.ListContent = ListContent
 
 export default FooterList

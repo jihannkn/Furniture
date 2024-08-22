@@ -1,8 +1,9 @@
-import bg1 from "../../public/assets/images/bg1.png";
+import bg1 from "../../../../public/assets/images/bg1.png";
 import { FaCommentDots, FaTruckFast } from "react-icons/fa6";
 import { FaCircleDollarToSlot } from "react-icons/fa6";
-import ButtonPrimary from "../components/elements/ButtonPrimary";
-import HotDealCards from "../components/elements/HotDealCards";
+import ButtonPrimary from "../../../components/elements/ButtonPrimary";
+import HotDealCards from "../../../components/elements/HotDealCards";
+
 
 export default function Section1() {
     return (

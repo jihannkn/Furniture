@@ -1,10 +1,11 @@
-import chair21 from "../../public/assets/images/21.png";
-import chair22 from "../../public/assets/images/22.png";
-import chair31 from "../../public/assets/images/31.png";
-import chair32 from "../../public/assets/images/32.png";
-import chair33 from "../../public/assets/images/33.png";
+import ButtonPrimary from "../../../components/elements/ButtonPrimary";
+import chair21 from "../../../../public/assets/images/21.png";
+import chair22 from "../../../../public/assets/images/22.png";
+import chair31 from "../../../../public/assets/images/31.png";
+import chair32 from "../../../../public/assets/images/32.png";
+import chair33 from "../../../../public/assets/images/33.png";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import ButtonPrimary from "../components/elements/ButtonPrimary";
+
 
 
 export default function Section2() {
@@ -24,9 +25,9 @@ export default function Section2() {
                             the best seat in the house
                         </p>
                         <ButtonPrimary
-                        text="Add to Cart"
-                        className="mt-[20px] ml-[13px] text-black bg-primary-blue"
-                    />
+                            text="Add to Cart"
+                            className="mt-[20px] ml-[13px] text-black bg-primary-blue"
+                        />
                     </div>
                     <div className="bg-[#d9ae84] relative w-[35%] h-[80vh] mr-[-90px] mt-[-130px] rounded-bl-[15px] rounded-br-[15px] rounded-tl-[300px] rounded-tr-[300px]">
                         <img src={chair21} alt="" className="absolute bottom-0 w-[90%] -ml-[100px]" />
@@ -38,12 +39,12 @@ export default function Section2() {
                     </div>
                     <div className="w-[40%] mb-[50px]">
                         <p className="text-[23px]">
-                        As in the best seat in the house. Combining comfort and creativity, our smashing range of armchairs features design to suit any style. Perhaps you're looking for a mid-century masterpiece
+                            As in the best seat in the house. Combining comfort and creativity, our smashing range of armchairs features design to suit any style. Perhaps you're looking for a mid-century masterpiece
                         </p>
                         <ButtonPrimary
-                        text="Add to Cart"
-                        className="mt-[20px] text-black bg-primary-brown"
-                    />
+                            text="Add to Cart"
+                            className="mt-[20px] text-black bg-primary-brown"
+                        />
                     </div>
                 </div>
             </div>
